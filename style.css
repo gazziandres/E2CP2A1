@@ -1,0 +1,116 @@
+
+body, html{
+	padding: 0;
+	margin: 0;
+}
+
+p, h3, h4{
+	color: #505050;
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	background: url(./images/bg.jpeg);
+	color: white;
+	top:0px;
+
+	margin: 10px 10px;
+}
+
+header p, h1{
+	text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+header p{
+	padding-bottom: 30px;
+	color: white;
+	font-size: 12px;
+}
+
+.logo{
+	padding: 30px;
+	float: left;
+	width: 15%;
+}
+
+.navright li{
+	float: right;
+	padding: 30px;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: rgba(128,128,128,0.9);
+}
+
+.clearfix{
+	clear: both;
+}
+
+.buttons{
+	text-align: center;
+}
+
+.btn1{
+	background-color: blue;
+	width: 100px;
+	padding: 20px 0px;
+	color: white;
+	border-radius: 10px;
+	border: 0;
+}
+
+.btn-green{
+	background-color: green;
+}
+
+
+.main-top{
+	text-align: center;
+}
+
+.main-top img{
+	width: 30%;
+}
+
+.main-top h3{
+	margin-top: 40px;
+}
+.main-top p{
+	font-size: 12px;
+}
+
+.main-bottom{
+	background-color: rgba(128,128,128,0.1);
+	text-align: center;
+	padding: 50px;
+}
+
+.footer-top{
+	text-align: center;
+}
+
+.contacto{
+	text-align: left;
+	float: left;
+	margin-left: 25%;
+}
+
+.mail{
+	color: blue;
+}
+
+.subscribe{
+	text-align: left;
+	float: left;
+	margin-left: 10%;
+}
+
+.foot{
+	padding: 15px;
+	color: white;
+	padding-left: 15%;
+	background-color: black;
+}
